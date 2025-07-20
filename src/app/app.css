@@ -1,0 +1,48 @@
+
+/* Ensure body and html fill the entire screen */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+    background-color: #20347c;
+  }
+  
+
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  /* Optional: remove default scrollbar background white line */
+  body::-webkit-scrollbar {
+    background: #20347c;
+  }
+  
+  .logo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #20347c; /* Optional: background behind logo */
+    z-index: 1000; /* Make sure it stays on top */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3); /* Optional: nice shadow */
+    margin-bottom: 300px;
+  }
+  
+  .logo img {
+    width: 186px;
+    height: 60px;
+  }
+  .logo2 img {
+    width: 200px;
+    height: 60px;
+  }
+  
