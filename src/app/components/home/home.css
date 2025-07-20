@@ -248,6 +248,53 @@ ul {
   font-size: 1.4rem;
 }
 
+
+
+
+.link-buttons p {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 15px 0;
+  }
+  
+  .label {
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .fancy-btn {
+    /* background: linear-gradient(to right, #007bff, #0056b3); */
+    color: white;
+    padding: 8px 16px;
+    font-size: 14px;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
+  }
+  
+  .fancy-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(0, 123, 255, 0.5);
+  }
+  
+  .fancy-btn.green {
+    background: linear-gradient(to right, #25D366, #128C7E);
+    box-shadow: 0 4px 10px rgba(37, 211, 102, 0.3);
+  }
+  
+  .fancy-btn.green:hover {
+    box-shadow: 0 6px 14px rgba(18, 140, 126, 0.5);
+  }
+  
+  
+
 /* Responsive View */
 @media (max-width: 768px) {
   .conference-info {
